@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Vote Reminder",
+  "version": "1.4",
+  "description": "Envoie une notification Windows quand le vote est disponible.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "notifications",
+    "alarms",
+	"storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://sirius-game.fr/vote*",
+        "https://www.sirius-game.fr/vote*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "host_permissions": [
+    "https://sirius-game.fr/*",
+    "https://www.sirius-game.fr/vote*"
+  ],
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon.png"
+    },
+    "default_title": "Vote Reminder"
+  }
+}
