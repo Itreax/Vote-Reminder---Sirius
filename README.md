@@ -1,6 +1,6 @@
-## 🌐 Extension Chrome – [Nom de ton extension]
+## 🌐 Extension Chrome – [Vote-Reminder]
 
-**Une extension simple et légère développée pour [expliquer brièvement l’objectif : ex. notifier les votes disponibles sur serveur-prive.net, améliorer l’interface, etc.].**
+**Une extension simple et légère développée pour vous notifier dès que le vote est disponible sur [Sirius](https://sirius-game.fr/vote), même lorsque la page est fermée. Elle conserve le dernier timer en mémoire et vous envoie jusqu’à 4 rappels via notifications Windows, avec vérification automatique toutes les 20 secondes et un bouton test de notification intégré.**
 
 ---
 
