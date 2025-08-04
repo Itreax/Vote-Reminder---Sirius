@@ -14,7 +14,7 @@
 
 ### 🛠️ Installation
 
-1. Télécharge le fichier ZIP depuis [→ la section Releases](https://github.com/ton-dépôt/releases).
+1. Télécharge le fichier ZIP depuis [→ la section Releases]([https://github.com/ton-dépôt/releases](https://github.com/Itreax/Vote-Reminder---Sirius/releases)).
 2. Extrais le ZIP sur ton ordinateur.
 3. Ouvre Chrome et va à l’adresse suivante : `chrome://extensions/`
 4. Active le **Mode développeur** (en haut à droite).
