@@ -2,7 +2,7 @@
 
 **Une extension simple et légère développée pour vous notifier dès que le vote est disponible sur [Sirius](https://sirius-game.fr/vote), même lorsque la page est fermée. Elle conserve le dernier timer en mémoire et vous envoie jusqu’à 4 rappels via notifications Windows, avec vérification automatique toutes les 30 secondes et un bouton test de notification intégré.**
 
-Vous avez aussi la possibilité de customiser le temps entre 2 vérifications/notificastions dans les options de l'extension, ainsi que le nombre maximum de notification.
+Vous avez aussi la possibilité de customiser le temps entre 2 vérifications/notifications dans les options de l'extension, ainsi que le nombre maximum de notification.
 
 ---
 
