@@ -14,18 +14,18 @@
 
 ### 🛠️ Installation
 
-1. Télécharge le fichier ZIP depuis [→ la section Releases](https://github.com/Itreax/Vote-Reminder---Sirius/releases).
-2. Extrais le ZIP sur ton ordinateur.
-3. Ouvre Chrome et va à l’adresse suivante : `chrome://extensions/`
-4. Active le **Mode développeur** (en haut à droite).
-5. Clique sur **"Charger l’extension non empaquetée"**
-6. Sélectionne le dossier extrait de l’archive.
+1. Téléchargez le fichier ZIP depuis [→ la section Releases](https://github.com/Itreax/Vote-Reminder---Sirius/releases).
+2. Extraire le ZIP sur votre ordinateur.
+3. Ouvrez Chrome et aller à l’adresse suivante : `chrome://extensions/`
+4. Activez le **Mode développeur** (en haut à droite).
+5. Cliquez sur **"Charger l’extension non empaquetée"**
+6. Sélectionnez le dossier extrait de l’archive.
 
-💡 *L’extension sera alors installée dans ton navigateur sans aucune alerte antivirus.*
+💡 *L’extension sera alors installée dans votre navigateur sans aucune alerte antivirus.*
 
 ---
 
 ### ⚠️ Windows Defender
 
-Des alertes peuvent apparaître si tu télécharges via Discord ou Google Drive (faux positif).  
-➡️ Utilise de préférence la **section Releases** de GitHub ou renomme le `.zip` en `.zip.txt`.
+Des alertes peuvent apparaître si téléchargés via Discord ou Google Drive (faux positif).  
+➡️ Utilisez de préférence la **section Releases** de GitHub ou renomme le `.zip` en `.zip.txt`.
