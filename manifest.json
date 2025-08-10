@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Vote Reminder",
-  "version": "1.4",
+  "version": "1.5",
   "description": "Envoie une notification Windows quand le vote est disponible.",
   "background": {
     "service_worker": "background.js"
@@ -10,7 +10,7 @@
     "tabs",
     "notifications",
     "alarms",
-	"storage"
+    "storage"
   ],
   "content_scripts": [
     {
@@ -34,5 +34,9 @@
       "128": "icon.png"
     },
     "default_title": "Vote Reminder"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
   }
 }

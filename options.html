@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Options de Vote Reminder</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            /* Couleur de fond du thème sombre d'uBlock */
+            background-color: #242424;
+            /* Couleur du texte principal */
+            color: #e0e0e0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            padding: 20px;
+            /* Rendre tout le texte légèrement plus grand */
+            font-size: 1.1em;
+        }
+        
+        /* Style pour les titres */
+        h1 {
+            color: #f0f0f0;
+            border-bottom: 1px solid #444;
+            padding-bottom: 10px;
+        }
+
+        /* Style pour les champs de saisie de type 'number' */
+        input[type="number"] {
+            background-color: #333333; /* Couleur de fond sombre pour le champ */
+            color: #e0e0e0; /* Couleur du texte dans le champ */
+            border: 1px solid #555555; /* Bordure discrète */
+            padding: 5px;
+            border-radius: 3px;
+        }
+        
+        /* Style spécifique pour les champs de saisie désactivés */
+        input[type="number"]:disabled {
+            background-color: #555555; /* Une couleur de fond plus foncée pour indiquer qu'il est désactivé */
+            color: #aaaaaa; /* Un texte plus clair/terne pour indiquer qu'il est désactivé */
+            cursor: not-allowed; /* Change le curseur de la souris pour indiquer qu'il n'est pas modifiable */
+        }
+
+        /* Style des cases à cocher */
+        input[type="checkbox"] {
+            /* Couleur d'accentuation pour la case cochée */
+            accent-color: #0078d4;
+        }
+
+        /* Style pour les groupes de paramètres */
+        .setting-group {
+            margin-bottom: 20px;
+        }
+        
+        /* Style pour le bouton Enregistrer */
+        button {
+            background-color: #0078d4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005a9e;
+        }
+    </style>
+</head>
+<body>
+    <h1>Paramètres de Vote Reminder</h1>
+
+    <div class="setting-group">
+        <label for="delay">Délai entre 2 vérifications (en secondes) :</label>
+        <input type="number" id="delay" min="10" max="3600" value="30">
+    </div>
+
+    <div class="setting-group">
+        <label for="max-notifications-enabled">
+            <input type="checkbox" id="max-notifications-enabled"> Activer un nombre maximum de notifications
+        </label>
+        <br>
+        <label for="max-notifications-count">Nombre maximum de notifications :</label>
+        <input type="number" id="max-notifications-count" min="1" value="5">
+    </div>
+    
+    <button id="save-button">Enregistrer</button>
+
+    <script src="options.js"></script>
+</body>
+</html>
